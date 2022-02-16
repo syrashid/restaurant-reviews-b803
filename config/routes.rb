@@ -4,5 +4,8 @@ Rails.application.routes.draw do
       get 'top'
       get 'worst'
     end
+    member do
+      get 'chef'
+    end
   end
 end

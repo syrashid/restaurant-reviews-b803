@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<h1>Run by <%= @chef_name %></h1>
+
 <p>
   <strong>Name:</strong>
   <%= @restaurant.name %>
@@ -15,6 +17,5 @@
   <%= @restaurant.stars %>
 </p>
 
-<%= link_to 'View Chef', chef_restaurant_path(@restaurant) %> |
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
